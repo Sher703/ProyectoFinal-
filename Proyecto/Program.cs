@@ -1,4 +1,5 @@
 ﻿using Proyecto.Clases;
+using Proyecto.Interfaz;
 using Proyecto.Modelos;
 using System;
 using System.Threading.Tasks;
@@ -9,43 +10,29 @@ namespace Proyecto
     {
         static async Task Main(string[] args)
         {
-            GestionHilos gestion = new GestionHilos();
-            // MODIFFICACION
-            GestionRecursos gestionRecursos = new GestionRecursos();
-            //
-            RoundRobin planificador = new RoundRobin();
-
-            Console.Write("¿Cuántos hilos desea crear? ");
-            int cantidadHilos = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < cantidadHilos; i++)
+            try
             {
-                Console.WriteLine("");
-                Console.WriteLine("******************************");
-                Console.Write($"Ingrese el nombre del hilo {i + 1}: ");
-                string nombreHilo = Console.ReadLine();
-                nombreHilo = string.IsNullOrEmpty(nombreHilo) ? $"Hilo {i}" : nombreHilo;
-                Console.Write($"Ingrese el tiempo de ejecución (en segundos) para el hilo {i + 1}: ");
-                int timpoEjecucion = int.Parse(Console.ReadLine());
-                Console.Write($"Ingrese el tiempo de proceso (en segundos) para el hilo {i + 1}: ");
-                int tiempoProceso = int.Parse(Console.ReadLine());
+                IAlgoritmo iAlgoritmo;
+                Console.WriteLine("Seleccione el tipo de Simulación a utilizar");
+                Console.WriteLine("1. Semáforo");
+                Console.WriteLine("2. Monitor");
+                int tipo = Convert.ToInt32(Console.ReadLine());
 
-                // MODIFICACION 
-                Console.Write("¿Cuántos recursos necesita? ");
-                int cantidadRecursos = int.Parse(Console.ReadLine());
-                Recursos recurso = gestionRecursos.CrearRecurso(i + 1, $"Recurso {i + 1}");
-                
-                Hilos hilo = gestion.CrearHilo(i + 1, nombreHilo, timpoEjecucion, tiempoProceso, recurso);
-                //
-                hilo = gestionRecursos.AsignarRecurso(hilo, recurso);
-                gestionRecursos.ImprimiRecurso(recurso);
-                //
-                planificador.EncolarHilo(hilo);
+                switch (tipo)
+                {
+                    case 0:
+                        iAlgoritmo = new Semaforos();
+                        break;
+                    default:
+                        iAlgoritmo = new Monitores();
+                        break;
+                }
+                iAlgoritmo.Ejecutar();
+            } catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
             }
-
-            // Ejecuta la planificación
-            await planificador.Ejecutar();
-            Console.WriteLine("Planificación completada.");
+            
         }
     }
 }

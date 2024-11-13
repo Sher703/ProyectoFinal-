@@ -12,7 +12,7 @@ namespace Proyecto.Clases
 
     {
         public GestionRecursos gestionRecursos = new GestionRecursos();
-        public Hilos CrearHilo(int id, string nombre, int tiemposegundos, int tiempoEjecucion, Recursos recurso)
+        public Hilos CrearHilo(int id, string nombre, int tiemposegundos, int tiempoEjecucion)
         {
 
             Hilos hilo = new Hilos();
@@ -21,7 +21,6 @@ namespace Proyecto.Clases
             hilo.TiempoProceso = tiemposegundos * 1000;
             hilo.TiempoEjecucion = tiempoEjecucion * 1000;
             hilo.estado = new Estados() { Nuevo = true };
-            gestionRecursos.AsignarRecurso(hilo, recurso);
             ImprimirDatosHilo(hilo);
             return hilo;
         }
@@ -82,6 +81,7 @@ namespace Proyecto.Clases
             Console.WriteLine($"Nombre: {hilo.nombre}");
             Console.WriteLine($"Es critico {hilo.critico}");
             Console.WriteLine($"Estado: {ObtenerEstadoActual(hilo)}");
+            Console.WriteLine($"Mensajes:");
         }
 
 
