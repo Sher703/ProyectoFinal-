@@ -16,15 +16,22 @@ namespace Proyecto
                 Console.WriteLine("Seleccione el tipo de Simulación a utilizar");
                 Console.WriteLine("1. Semáforo");
                 Console.WriteLine("2. Monitor");
+                Console.WriteLine("3. BitMap");
                 int tipo = Convert.ToInt32(Console.ReadLine());
 
                 switch (tipo)
                 {
-                    case 0:
+                    case 1:
                         iAlgoritmo = new Semaforos();
                         break;
-                    default:
+                    case 2:
                         iAlgoritmo = new Monitores();
+                        break;
+                    case 3:
+                        iAlgoritmo = new BitMap();
+                        break;
+                    default:
+                        iAlgoritmo = new Semaforos();
                         break;
                 }
                 iAlgoritmo.Ejecutar();

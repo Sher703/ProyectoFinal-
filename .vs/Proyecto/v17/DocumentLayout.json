@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sherl\\Desktop\\Proyecto\\",
+  "WorkspaceRootPath": "C:\\Proyectos\\ProyectoFinal-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|c:\\users\\sherl\\desktop\\proyecto\\proyecto\\modelos\\hilos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\modelos\\hilos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|c:\\proyectos\\proyectofinal-\\proyecto\\clases\\bitmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\clases\\bitmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|c:\\users\\sherl\\desktop\\proyecto\\proyecto\\clases\\dekker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\clases\\dekker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|c:\\proyectos\\proyectofinal-\\proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|c:\\users\\sherl\\desktop\\proyecto\\proyecto\\clases\\gestionhilos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\clases\\gestionhilos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|c:\\proyectos\\proyectofinal-\\proyecto\\modelos\\recursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\modelos\\recursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|c:\\users\\sherl\\desktop\\proyecto\\proyecto\\clases\\roundrobin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\clases\\roundrobin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|c:\\proyectos\\proyectofinal-\\proyecto\\clases\\semaforos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\clases\\semaforos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|c:\\proyectos\\proyectofinal-\\proyecto\\clases\\monitores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764552EA-8F2F-4D26-AEAF-53B3553849BE}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\clases\\monitores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,55 +34,73 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dekker.cs",
-              "DocumentMoniker": "C:\\Users\\sherl\\Desktop\\Proyecto\\Proyecto\\Clases\\Dekker.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Clases\\Dekker.cs",
-              "ToolTip": "C:\\Users\\sherl\\Desktop\\Proyecto\\Proyecto\\Clases\\Dekker.cs",
-              "RelativeToolTip": "Proyecto\\Clases\\Dekker.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Semaforos.cs",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoFinal-\\Proyecto\\Clases\\Semaforos.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Clases\\Semaforos.cs",
+              "ToolTip": "C:\\Proyectos\\ProyectoFinal-\\Proyecto\\Clases\\Semaforos.cs",
+              "RelativeToolTip": "Proyecto\\Clases\\Semaforos.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAswDAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T03:10:31.544Z",
+              "WhenOpened": "2024-11-13T21:57:23.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Hilos.cs",
-              "DocumentMoniker": "C:\\Users\\sherl\\Desktop\\Proyecto\\Proyecto\\Modelos\\Hilos.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Modelos\\Hilos.cs",
-              "ToolTip": "C:\\Users\\sherl\\Desktop\\Proyecto\\Proyecto\\Modelos\\Hilos.cs",
-              "RelativeToolTip": "Proyecto\\Modelos\\Hilos.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoFinal-\\Proyecto\\Program.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Program.cs",
+              "ToolTip": "C:\\Proyectos\\ProyectoFinal-\\Proyecto\\Program.cs",
+              "RelativeToolTip": "Proyecto\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA7wB4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T02:53:53.995Z",
+              "WhenOpened": "2024-11-13T21:57:21.556Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BitMap.cs",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoFinal-\\Proyecto\\Clases\\BitMap.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Clases\\BitMap.cs",
+              "ToolTip": "C:\\Proyectos\\ProyectoFinal-\\Proyecto\\Clases\\BitMap.cs",
+              "RelativeToolTip": "Proyecto\\Clases\\BitMap.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAswCoAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T23:17:16.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GestionHilos.cs",
-              "DocumentMoniker": "C:\\Users\\sherl\\Desktop\\Proyecto\\Proyecto\\Clases\\GestionHilos.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Clases\\GestionHilos.cs",
-              "ToolTip": "C:\\Users\\sherl\\Desktop\\Proyecto\\Proyecto\\Clases\\GestionHilos.cs",
-              "RelativeToolTip": "Proyecto\\Clases\\GestionHilos.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowFYAAAAAAAAAAAAAAA==",
+              "Title": "Recursos.cs",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoFinal-\\Proyecto\\Modelos\\Recursos.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Modelos\\Recursos.cs",
+              "ToolTip": "C:\\Proyectos\\ProyectoFinal-\\Proyecto\\Modelos\\Recursos.cs",
+              "RelativeToolTip": "Proyecto\\Modelos\\Recursos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T02:53:49.761Z",
+              "WhenOpened": "2024-11-13T21:57:51.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoundRobin.cs",
-              "DocumentMoniker": "C:\\Users\\sherl\\Desktop\\Proyecto\\Proyecto\\Clases\\RoundRobin.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Clases\\RoundRobin.cs",
-              "ToolTip": "C:\\Users\\sherl\\Desktop\\Proyecto\\Proyecto\\Clases\\RoundRobin.cs",
-              "RelativeToolTip": "Proyecto\\Clases\\RoundRobin.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Monitores.cs",
+              "DocumentMoniker": "C:\\Proyectos\\ProyectoFinal-\\Proyecto\\Clases\\Monitores.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Clases\\Monitores.cs",
+              "ToolTip": "C:\\Proyectos\\ProyectoFinal-\\Proyecto\\Clases\\Monitores.cs",
+              "RelativeToolTip": "Proyecto\\Clases\\Monitores.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAswDIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T02:35:22.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T21:57:26.452Z"
             }
           ]
         }
